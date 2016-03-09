@@ -28,7 +28,7 @@ formSubmit = function(e) {
     statusMessage = document.getElementById(formName + '-form-status-message');
     statusMessageSuccessText = 'Thanks for signing up for HackMANN 2015! Look out soon for an email from us for more details.';
     if (formName === 'sponsor') {
-        statusMessageSuccessText = 'Thanks for your interest in sponsoring HackMANN 2015! Feel free to email us; otherwise, we will get in touch with you as soon as possible.';
+        statusMessageSuccessText = 'Thanks for your interest in sponsoring HackMANN 2016! Feel free to email us; otherwise, we will get in touch with you as soon as possible.';
     }
     jQuery.ajax(form.action, {
         method: 'POST',
