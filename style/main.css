@@ -19,7 +19,7 @@ body {
 }
 
 .center-vertical {
-	top: 50%;
+	top: 40%;
 	transform: translateY(-50%);
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .mann {
-	color: #5f0013;
+	color: #AA010D;
 	font-weight: 800;
 }
 
